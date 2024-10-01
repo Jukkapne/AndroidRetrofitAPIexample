@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         // API key for authentication
-        val apiKey = "2ef300b1-2794-424c-880d-e136f9d73280"
+        val apiKey = "" // luo oma api-avain https://jwstapi.com/
 
         // OkHttpClient with an interceptor to add the API key to the headers
         val okHttpClient = OkHttpClient.Builder()
